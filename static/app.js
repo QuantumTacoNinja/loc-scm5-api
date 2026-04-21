@@ -40,6 +40,7 @@ async function adminGetAllUsers() {
 }
 
 // TODO: ลบออกก่อน deploy
+// SMC{read_the_source_luke}
 async function updateProfile(data) {
     return fetch(`${API_BASE}/api/users/update`, {
         method: "POST",
