@@ -1,0 +1,50 @@
+services:
+  student-01:
+    build: .
+    ports: ["23101:5000"]
+    restart: unless-stopped
+
+  student-02:
+    build: .
+    ports: ["23102:5000"]
+    restart: unless-stopped
+
+  student-03:
+    build: .
+    ports: ["23103:5000"]
+    restart: unless-stopped
+
+  student-04:
+    build: .
+    ports: ["23104:5000"]
+    restart: unless-stopped
+
+  student-05:
+    build: .
+    ports: ["23105:5000"]
+    restart: unless-stopped
+
+  student-06:
+    build: .
+    ports: ["23106:5000"]
+    restart: unless-stopped
+
+  student-07:
+    build: .
+    ports: ["23107:5000"]
+    restart: unless-stopped
+
+  student-08:
+    build: .
+    ports: ["23108:5000"]
+    restart: unless-stopped
+
+  student-09:
+    build: .
+    ports: ["23109:5000"]
+    restart: unless-stopped
+
+  student-10:
+    build: .
+    ports: ["23110:5000"]
+    restart: unless-stopped
